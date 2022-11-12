@@ -1,3 +1,3 @@
 # javaScriptCarousel
 
-# https://oedjoat.github.io/javaScriptCarousel/
+## https://oedjoat.github.io/javaScriptCarousel/
