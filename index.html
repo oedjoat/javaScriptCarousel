@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&displayswap">
+      <link rel="stylesheet" href="style.css">
+      <title>Carousel project</title>
+   </head>
+   <body>
+      <p>Carousel Project</p>
+      <div class="carousel-images">
+         <div class="first-image" id="active-image">
+            <img src="1.jpg" alt="">
+         </div>
+         <div class="first-image">
+            <img src="2.jpg" alt="">
+         </div>
+         <div class="first-image">
+            <img src="3.jpg" alt="">
+         </div>
+         <div class="first-image">
+            <img src="4.jpg" alt="">
+         </div>
+         <div class="first-image">
+            <img src="5.jpg" alt="">
+         </div>
+         <div class="first-image">
+            <img src="6.jpg" alt="">
+         </div>
+
+         <div class="direction-icon">
+            <a class="previous" onclick="directionIcon(1)" href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                  viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                  </svg>
+               </a>
+               <a class="next" onclick="directionIcon(1)" href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                     viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                     <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                     </svg>
+                  </a>
+               </div>
+            </div>
+            <script src="script.js"></script>
+         </body>
+      </html>

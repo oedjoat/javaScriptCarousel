@@ -1,0 +1,64 @@
+*,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+p {
+	text-align: center;
+	font-size: 2rem;
+	text-decoration: underline;
+}
+
+.first-image img {
+	width: 30rem;
+}
+
+.carousel-images {
+	position: relative;
+	width: 100%;
+	max-width: 483px;
+	margin: 50px auto;
+}
+
+.first-image {
+	display: none;
+}
+
+.direction-icon {
+	position: absolute;
+	inset: 0;
+	display: none;
+}
+
+.carousel-images:hover .direction-icon {
+	display: block;
+}
+
+.direction-icon svg {
+	width: 3rem;
+}
+
+.previous {
+	position: absolute;
+	top: 45%;
+	left: 0;
+}
+
+.next {
+	position: absolute;
+	top: 45%;
+	right: 0;
+}
+
+@media screen and (max-width: 550px) {
+	.first-image img {
+		width: 100%;
+	}
+}
